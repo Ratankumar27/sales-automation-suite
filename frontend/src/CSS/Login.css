@@ -1,0 +1,21 @@
+.login-page .login-container {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-image: url("../assets/ecommerce-bg.jpg");
+  background-size: cover;
+  background-position: center;
+}
+
+.login-page .login-box {
+  width: 350px;
+  padding: 40px;
+  background: rgba(255,255,255,0.15);
+  backdrop-filter: blur(10px);
+  border-radius: 12px;
+}
+
+.login-page .form-control {
+  background: rgba(255,255,255,0.8);
+}

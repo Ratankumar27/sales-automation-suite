@@ -1,0 +1,17 @@
+.register-page {
+  background-image: url("../assets/ecommerce-bg.jpg");
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+}
+
+.register-page .card {
+  background: rgba(255,255,255,0.2);
+  backdrop-filter: blur(10px);
+  border-radius: 15px;
+}
+
+.register-page .form-control,
+.register-page .form-select {
+  background: rgba(255,255,255,0.6);
+}

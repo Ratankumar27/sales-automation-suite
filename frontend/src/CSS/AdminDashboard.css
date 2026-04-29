@@ -1,0 +1,147 @@
+/* AdminDashboard.css - Cartoonish Version */
+
+body {
+  background: linear-gradient(135deg, #ffeaa7, #fab1a0, #81ecec);
+  font-family: "Comic Sans MS", "Poppins", Arial, sans-serif;
+}
+
+.admin-container {
+  min-height: 100vh;
+  padding: 40px;
+}
+
+.admin-title {
+  text-align: center;
+  font-size: 38px;
+  font-weight: bold;
+  color: #6c5ce7;
+  margin-bottom: 40px;
+  text-shadow: 2px 2px #fd79a8;
+}
+
+/* Cards */
+.admin-card {
+  border: none;
+  border-radius: 25px;
+  transition: 0.3s ease;
+  cursor: pointer;
+
+  /* Lavender Color */
+  background: linear-gradient(135deg, #e6e6fa, #d8bfd8);
+
+  box-shadow: 0 8px 18px rgba(108, 92, 231, 0.18);
+}
+
+.admin-card:hover {
+  transform: translateY(-10px) rotate(-1deg) scale(1.03);
+
+  /* Darker Lavender Hover */
+  background: linear-gradient(135deg, #d8bfd8, #c8a2c8);
+
+  box-shadow: 0 15px 28px rgba(108, 92, 231, 0.28);
+}
+
+.admin-card h5 {
+  font-weight: bold;
+  color: #4b0082;   
+  margin-bottom: 10px;
+  font-size: 22px;
+}
+
+.admin-card p {
+  color: #5d4e75;
+  font-size: 14px;
+}
+
+/* Modal */
+.modal-content {
+  border-radius: 25px;
+  border: 4px solid #74b9ff;
+  overflow: hidden;
+}
+
+.modal-header {
+  background: linear-gradient(90deg, #6c5ce7, #00cec9);
+  color: white;
+}
+
+.modal-title {
+  font-weight: bold;
+  font-size: 22px;
+}
+
+/* Inputs */
+.form-control {
+  border-radius: 15px;
+  padding: 12px;
+  border: 2px solid #a29bfe;
+  background: #fffaf0;
+}
+
+.form-control:focus {
+  border-color: #fd79a8;
+  box-shadow: 0 0 10px rgba(253, 121, 168, 0.4);
+}
+
+.form-label {
+  font-weight: bold;
+  color: #2d3436;
+}
+
+/* Buttons */
+.btn-primary {
+  border-radius: 15px;
+  padding: 10px 20px;
+  font-weight: bold;
+  background: linear-gradient(90deg, #00b894, #55efc4);
+  border: none;
+}
+
+.btn-primary:hover {
+  background: linear-gradient(90deg, #00cec9, #81ecec);
+}
+
+.btn-secondary {
+  border-radius: 15px;
+  padding: 10px 20px;
+  font-weight: bold;
+  background: #fd79a8;
+  border: none;
+}
+
+.btn-secondary:hover {
+  background: #e84393;
+}
+
+/* Report Box */
+.report-box {
+  background: linear-gradient(135deg, #ffeaa7, #fab1a0);
+  padding: 15px;
+  border-radius: 18px;
+  margin-top: 15px;
+}
+
+.report-box h6 {
+  font-weight: bold;
+  color: #6c5ce7;
+}
+
+.report-box p {
+  margin: 0;
+  color: #2d3436;
+}
+
+/* Mobile */
+@media (max-width: 768px) {
+  .admin-container {
+    padding: 20px;
+  }
+
+  .admin-title {
+    font-size: 28px;
+  }
+
+  .admin-card .card-body {
+    padding: 20px;
+  }
+}
